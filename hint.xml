@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+
+  <PAT version="8">
+   	<bitrate>15000000</bitrate>
+    <service service_id="500">
+      <pmt_pid>5000</pmt_pid>
+    </service>
+  </PAT>
+
+  <PMT version="4" pmt_pid="5000" service_id="500">
+  	<component elementary_pid="5001" stream_type="0x06"/>
+  </PMT>
+
+</tsduck>
